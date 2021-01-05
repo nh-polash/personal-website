@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu-area {
+    width: 90%;
+    margin-top: 40px;
+    text-align: right;
+}
+
+.menu-area ul {
+    list-style-type: none;
+}
+
+.menu-area li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu-area a {
+    text-decoration: none;
+    color: #363958;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section {
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.intro-area {
+    margin-top: 100px;
+}
+
+.half-area {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-area img {
+    width: 100%;
+}
+
+.intro-area .half-area h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.intro-area .half-area p {
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+.highlights-blue {
+    color: #00917c;
+}
+
+.highlights-tomato {
+    color: #c70039;
+}
+
+a.btn-link {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-image: linear-gradient(45deg, #00917c, #34626c);
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+a.btn-link:hover {
+    color: #00917c;
+    border: 2px solid #00917c;
+    background: transparent;
+}
+
+
+section.about-area h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+section.about-area p {
+    color: #000;
+    margin-bottom: 50px;
+    line-height: 25px;
+    text-align: justify;
+
+}
+
+.portfolio-area {
+    background-color: #F8F9FC;
+    padding: 50px 0 100px;
+}
+
+.half-portfolio {
+    width: 25%;
+    margin-left: 4.5%;
+    padding: 1.5%;
+    float: left;
+    margin-top: 50px;
+    box-shadow: 5px 5px 20px lightgray;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.half-portfolio  img {
+    width: 100%;
+}
+
+.half-portfolio  p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.half-portfolio  h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.chat-area {
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.chat-half {
+    display: inline-block;
+    padding: 25px 40px;
+}
+
+.chat-half h3 {
+   font-size: 50px;
+   font-weight: 700;
+   color: #fff;
+}
+
+#chat-btn {
+    float: right;
+    margin-top: 75px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h4 {
+    color: #696871;
+    font-size: 20px;
+}
+
+footer h3 {
+    color: #363958;
+    font-size: 30px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+footer ul li a img {
+    width: 50px;
+}
+
